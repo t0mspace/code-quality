@@ -5,7 +5,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
 # Runtime data
 pids
@@ -32,31 +31,14 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
-# Yarn Integrity file
-.yarn-integrity
-
 # dotenv environment variables file
 .env
 
-# parcel-bundler cache (https://parceljs.org/)
-.cache
-
-# next.js build output
-.next
-
-# nuxt.js build output
-.nuxt
 
 # Build
 dist
 dist-ssr
 *.local
-
-# vuepress build output
-.vuepress/dist
-
-# Serverless directories
-.serverless
 
 # IDE / Editor directories and files
 # .vscode/*
@@ -76,7 +58,3 @@ sw.*
 
 # Vim swap files
 *.swp
-
-# S3
-aws-credentials.json
-upload-s3.js
